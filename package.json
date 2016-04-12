@@ -13,6 +13,7 @@
     "type": "git",
     "url": "https://github.com/rprzebieglec/react-image-loader.git"
   },
+  "bugs": "https://github.com/rprzebieglec/react-image-loader/issues",
   "dependencies": {
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
