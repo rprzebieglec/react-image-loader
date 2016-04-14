@@ -1,6 +1,6 @@
 {
   "name": "react-image-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shows spinner until image is loaded",
   "main": "index.js",
   "scripts": {
