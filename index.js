@@ -1,3 +1,3 @@
-var ImageLoader = require('./app/components/ImageLoader');
+var ImageLoader = require('./dist/index');
 
 module.exports = ImageLoader;

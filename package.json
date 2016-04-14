@@ -4,6 +4,7 @@
   "description": "Shows spinner until image is loaded",
   "main": "index.js",
   "scripts": {
+    "prepublish": "webpack -p",
     "production": "webpack -p",
     "start": "webpack-dev-server --hot --inline"
   },
@@ -15,9 +16,7 @@
   },
   "bugs": "https://github.com/rprzebieglec/react-image-loader/issues",
   "dependencies": {
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "react-router": "^2.0.0-rc5"
+    "react": "^0.14.8"
   },
   "devDependencies": {
     "babel-core": "^6.7.4",
@@ -30,6 +29,7 @@
     "style-loader": "^0.13.1",
     "svg-inline-loader": "^0.4.1",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.14.1",
+    "react-dom": "^0.14.8"
   }
 }
