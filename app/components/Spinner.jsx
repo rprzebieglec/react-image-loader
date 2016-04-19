@@ -9,7 +9,10 @@ class Spinner extends React.Component {
     }
 
     render() {
-        return <span dangerouslySetInnerHTML={{__html: puff}}/>;
+        var base64 = 'data:image/svg+xml;base64,'
+            + btoa(puff)
+            ;
+        return <img src={base64}/>;
     }
 }
 

@@ -20,13 +20,13 @@ class ImageLoader extends React.Component {
                     src: image.src,
                     isLoading: false
                 });
-        }
+        };
     }
 
     render() {
         if (this.state.isLoading) {
             return (
-                <Spinner />
+                <Spinner/>
             );
         } else {
             return (
