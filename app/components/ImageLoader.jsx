@@ -30,7 +30,7 @@ class ImageLoader extends React.Component {
             );
         } else {
             return (
-                <img src={this.state.src} alt={this.props.alt}/>
+                <img className='ril--image' src={this.state.src} alt={this.props.alt}/>
             );
         }
     }

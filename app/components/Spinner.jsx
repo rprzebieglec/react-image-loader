@@ -12,7 +12,7 @@ class Spinner extends React.Component {
         var base64 = 'data:image/svg+xml;base64,'
             + btoa(puff)
             ;
-        return <img src={base64}/>;
+        return <img className='ril--spinner' src={base64}/>;
     }
 }
 
