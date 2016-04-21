@@ -1,7 +1,7 @@
 import React from 'react';
 import Spinner from './Spinner';
 
-class ImageLoader extends React.Component {
+export default class ImageLoader extends React.Component {
 
     constructor(props) {
         super(props);
@@ -36,5 +36,3 @@ class ImageLoader extends React.Component {
     }
 }
 
-
-module.exports = ImageLoader;

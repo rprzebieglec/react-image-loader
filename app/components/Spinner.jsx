@@ -2,7 +2,7 @@ import React from 'react';
 
 const puff = require('!svg-inline?removeSVGTagAttrs=false!../svg/puff.svg');
 
-class Spinner extends React.Component {
+export default class Spinner extends React.Component {
 
     constructor(props) {
         super(props);
@@ -15,5 +15,3 @@ class Spinner extends React.Component {
         return <img className='ril--spinner' src={base64}/>;
     }
 }
-
-module.exports = Spinner;
