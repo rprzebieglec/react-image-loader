@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/rprzebieglec/react-image-loader.svg?branch=master)](https://travis-ci.org/rprzebieglec/react-image-loader)
 
+# About
+
+This component is using great svg loader from http://samherbert.net/svg-loaders.
+It is showed until onload event is triggered on requested image.
+
 # Getting started
 
 ```
@@ -26,6 +31,10 @@ ReactDOM.render(
 
 * `src`: Source of an image to be loaded
 * `alt`: Alternative description
+
+## Demo
+
+Coming soon...
 
 # License
 
