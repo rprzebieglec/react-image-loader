@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>React-image-loader by rprzebieglec</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>React-image-loader</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/rprzebieglec/react-image-loader">View the Project on GitHub <small>rprzebieglec/react-image-loader</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/rprzebieglec/react-image-loader/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/rprzebieglec/react-image-loader/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/rprzebieglec/react-image-loader">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><a href="https://travis-ci.org/rprzebieglec/react-image-loader"><img src="https://travis-ci.org/rprzebieglec/react-image-loader.svg?branch=master" alt="Build Status"></a></p>
+
+<h1>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h1>
+
+<p>This component is using great svg loader from <a href="http://samherbert.net/svg-loaders">http://samherbert.net/svg-loaders</a>.
+It is showed until onload event is triggered on requested image.</p>
+
+<h1>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h1>
+
+<pre><code>npm install react-image-loader --save
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-source-js-jsx"><pre><span class="pl-k">import</span><span class="pl-smi"> React</span><span class="pl-k"> from</span> <span class="pl-s"><span class="pl-pds">'</span>react<span class="pl-pds">'</span></span>;
+<span class="pl-k">import</span><span class="pl-smi"> ReactDOM</span><span class="pl-k"> from</span> <span class="pl-s"><span class="pl-pds">'</span>react-dom<span class="pl-pds">'</span></span>;
+<span class="pl-k">import</span><span class="pl-smi"> ImageLoader</span><span class="pl-k"> from</span> <span class="pl-s"><span class="pl-pds">'</span>react-image-loader<span class="pl-pds">'</span></span>;
+
+<span class="pl-smi">ReactDOM</span><span class="pl-k">.</span><span class="pl-en">render</span>(
+  &lt;<span class="pl-ent">ImageLoader</span> 
+    <span class="pl-e">src</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>https://images.unsplash.com/photo-1460626399219-57a00a2361cb?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;s=12c861af4f60a23c7f55a83f401f4b7<span class="pl-pds">"</span></span>
+    <span class="pl-e">alt</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Random image from Unsplash.com<span class="pl-pds">"</span></span>
+    /&gt;,
+<span class="pl-c1">  document</span><span class="pl-k">.</span><span class="pl-en">getElementById</span>(<span class="pl-s"><span class="pl-pds">'</span>app<span class="pl-pds">'</span></span>)
+);</pre></div>
+
+<h2>
+<a id="props" class="anchor" href="#props" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Props</h2>
+
+<ul>
+<li>
+<code>src</code>: Source of an image to be loaded</li>
+<li>
+<code>alt</code>: Alternative description</li>
+</ul>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+
+<p>Coming soon...</p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>MIT </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/rprzebieglec">rprzebieglec</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "React-image-loader",
+  "tagline": "",
+  "body": "[![Build Status](https://travis-ci.org/rprzebieglec/react-image-loader.svg?branch=master)](https://travis-ci.org/rprzebieglec/react-image-loader)\r\n\r\n# About\r\n\r\nThis component is using great svg loader from http://samherbert.net/svg-loaders.\r\nIt is showed until onload event is triggered on requested image.\r\n\r\n# Getting started\r\n\r\n```\r\nnpm install react-image-loader --save\r\n```\r\n\r\n## Usage\r\n\r\n```jsx\r\nimport React from 'react';\r\nimport ReactDOM from 'react-dom';\r\nimport ImageLoader from 'react-image-loader';\r\n\r\nReactDOM.render(\r\n  <ImageLoader \r\n    src=\"https://images.unsplash.com/photo-1460626399219-57a00a2361cb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=12c861af4f60a23c7f55a83f401f4b7\"\r\n    alt=\"Random image from Unsplash.com\"\r\n    />,\r\n  document.getElementById('app')\r\n);\r\n```\r\n\r\n## Props\r\n\r\n* `src`: Source of an image to be loaded\r\n* `alt`: Alternative description\r\n\r\n## Demo\r\n\r\nComing soon...\r\n\r\n# License\r\n\r\nMIT \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
