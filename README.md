@@ -8,7 +8,7 @@ npm install react-image-loader --save
 
 ## Usage
 
-```
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ImageLoader from 'react-image-loader';
