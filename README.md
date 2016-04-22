@@ -34,7 +34,7 @@ ReactDOM.render(
 
 ## Demo
 
-Coming soon...
+https://rprzebieglec.github.io/react-image-loader/#app
 
 # License
 
