@@ -6,12 +6,25 @@ export default class Spinner extends React.Component {
 
     constructor(props) {
         super(props);
+
+        this.state = {
+            src: ''
+        };
+    }
+
+    componentDidMount() {
+        var src = '';
+        if (!this.props.src) {
+            src = 'data:image/svg+xml;base64,'
+                + btoa(puff)
+            ;
+        } else {
+            src = this.props.src;
+        }
+        this.setState({src});
     }
 
     render() {
-        var base64 = 'data:image/svg+xml;base64,'
-            + btoa(puff)
-            ;
-        return <img className='ril--spinner' src={base64}/>;
+        return <img className='ril--spinner' src={this.state.src}/>;
     }
 }
